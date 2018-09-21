@@ -30,7 +30,7 @@
 </dependency>
   </dependencies>
   <build>
-    <finalName>jenkinsTemplateProject</finalName>
+    <finalName>cicdProject</finalName>
    
     <plugins>
     <plugin>
@@ -42,7 +42,7 @@
         <server>Tomcat</server>
         <port>9091</port>
        
-        <path>/jenkinsTemplateProject</path>
+        <path>/cicdProject</path>
         
     </configuration>
 </plugin>
