@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+
  * Servlet implementation class MyTest
  */
 //comment
@@ -18,7 +19,7 @@ public class MyTest extends HttpServlet {
      */
     public MyTest() {
         super();
-        // TODO Auto-generated constructor stub
+        // TODO Auto-generated constructor stub and test
     }
 
 	/**
