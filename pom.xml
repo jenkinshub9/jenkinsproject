@@ -7,6 +7,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>cicdProject</name>
   <url>http://maven.apache.org</url>
+  
+ 
+ 
+
   <dependencies>
 <dependency>
   <groupId>org.apache.maven.plugins</groupId>
@@ -31,7 +35,7 @@
   </dependencies>
   <build>
     <finalName>cicdProject</finalName>
-   
+    <reporting>
     <plugins>
       
       <plugin>
@@ -87,7 +91,7 @@
        </plugin>
  
     </plugins>
-   
+   </reporting>
   
     <resources>
         <resource>
