@@ -76,7 +76,7 @@
         </executions>
        </plugin>
  
-    </plugins>
+    
    
   <plugin>
      <groupId>org.apache.maven.plugins</groupId>
@@ -90,6 +90,7 @@
           </dependency>
       </dependencies>
 </plugin>
+      </plugins>
     <resources>
         <resource>
             <directory>src/main/resources</directory>
