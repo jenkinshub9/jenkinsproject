@@ -105,16 +105,9 @@
             <filtering>true</filtering>
         </resource>
     </resources>
-   <distributionManagement>
-<snapshotRepository>
-<id>tomcat</id>
-<url>http://localhost:8181</url>
-</snapshotRepository>
-<repository>
-<id>tomcat</id>
-<url>http://localhost:8181</url>
-</repository>
-</distributionManagement>
+   
 </build>
+ <distributionManagement>
  
+</distributionManagement>
 </project>
