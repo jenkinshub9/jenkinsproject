@@ -7,7 +7,7 @@ jdk 'jdk'
 stages{
 stage('clone repo'){
 steps{
-bat 'checkout scm'
+ 
 bat 'mvn clean'
 } }
 stage('Test'){
