@@ -7,20 +7,20 @@ jdk 'jdk'
 stages{
 stage('clone repo'){
 steps{
- 
-bat 'mvn clean'
+     
+echo "clone the repository"
 } }
 stage('Test'){
 steps{
-bat 'mvn test   '
+echo "test the repository"
 }  }
 stage('Deploy')
 {
 steps{
-bat 'mvn package  '
+echo "deploy the repository"
 } }
 }
 post {
 always {
-junit '**/surefire-reports/*.xml'
+echo "post the repository"
 }   }  }
