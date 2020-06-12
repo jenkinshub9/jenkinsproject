@@ -9,7 +9,7 @@ stage('clone repo'){
 steps{
      
 echo "clone the repository"
-    sh 'mvn package'
+    
 } }
 stage('Test'){
 steps{
