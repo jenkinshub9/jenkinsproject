@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
 
- * Servlet implementation class MyTest
+ * Servlet implementation class MyTest update in comment
  */
 //comment
 public class MyTest extends HttpServlet {
